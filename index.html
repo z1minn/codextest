@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">CD</div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button class="btn btn-ghost" id="toggle-theme" aria-label="Toggle theme">🌙</button>
+    </nav>
+    <button class="menu" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__content">
+        <p class="eyebrow">Creative Developer</p>
+        <h1>Building joyful web experiences that solve real problems.</h1>
+        <p class="lede">I design and develop human-centered products with clean code, thoughtful interactions, and accessible foundations.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="#contact">Let's talk</a>
+        </div>
+        <div class="meta">
+          <div>
+            <p class="meta__label">Based in</p>
+            <p class="meta__value">Seoul, South Korea</p>
+          </div>
+          <div>
+            <p class="meta__label">Experience</p>
+            <p class="meta__value">5+ years</p>
+          </div>
+          <div>
+            <p class="meta__label">Focus</p>
+            <p class="meta__value">Web apps, Design systems</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero__card">
+        <div class="card">
+          <p class="card__title">Now building</p>
+          <p class="card__project">A sleek portfolio template with a11y-first interactions.</p>
+          <div class="card__stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="card__footer">
+            <div>
+              <p class="meta__label">Timeline</p>
+              <p class="meta__value">Spring 2024</p>
+            </div>
+            <div>
+              <p class="meta__label">Status</p>
+              <p class="meta__value status">In progress</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section__header">
+        <p class="eyebrow">About</p>
+        <h2>A developer who bridges design and engineering.</h2>
+        <p class="lede">I craft reliable, maintainable code and iterate quickly with designers and stakeholders.</p>
+      </div>
+      <div class="grid two-column">
+        <div class="stack">
+          <h3>What I bring</h3>
+          <ul class="list">
+            <li>Experience launching production-grade web apps and design systems.</li>
+            <li>Obsessive focus on performance, accessibility, and delightful micro-interactions.</li>
+            <li>Clear communication with cross-functional teams.</li>
+          </ul>
+        </div>
+        <div class="stack">
+          <h3>Principles</h3>
+          <ul class="list">
+            <li>Build with empathy for users and teammates.</li>
+            <li>Prefer small, composable components over monoliths.</li>
+            <li>Measure outcomes and iterate deliberately.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section__header">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected work</h2>
+        <p class="lede">A snapshot of products that emphasize usability, aesthetics, and robust engineering.</p>
+      </div>
+      <div class="grid three-column">
+        <article class="project">
+          <div class="project__meta">
+            <span class="pill">Case Study</span>
+            <span>2024</span>
+          </div>
+          <h3>Design System Revamp</h3>
+          <p>Rebuilt a scalable design system with accessible components, accelerating delivery by 30%.</p>
+          <p class="project__stack">React · Storybook · Figma Tokens</p>
+          <a class="link" href="#">Read more →</a>
+        </article>
+        <article class="project">
+          <div class="project__meta">
+            <span class="pill">Web App</span>
+            <span>2023</span>
+          </div>
+          <h3>Analytics Dashboard</h3>
+          <p>Interactive dashboards with real-time updates and a responsive grid for mobile users.</p>
+          <p class="project__stack">Next.js · TypeScript · D3</p>
+          <a class="link" href="#">Read more →</a>
+        </article>
+        <article class="project">
+          <div class="project__meta">
+            <span class="pill">E-commerce</span>
+            <span>2022</span>
+          </div>
+          <h3>Product Discovery</h3>
+          <p>Optimized browsing experience with personalized recommendations and fast search.</p>
+          <p class="project__stack">Vue · Node · ElasticSearch</p>
+          <a class="link" href="#">Read more →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section__header">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools & Expertise</h2>
+        <p class="lede">I adapt quickly and ship dependable code across the stack.</p>
+      </div>
+      <div class="grid two-column">
+        <div class="stack">
+          <h3>Frontend</h3>
+          <div class="tags">
+            <span>JavaScript</span><span>TypeScript</span><span>React</span><span>Next.js</span><span>CSS</span><span>Tailwind</span><span>Accessibility</span>
+          </div>
+        </div>
+        <div class="stack">
+          <h3>Backend & Ops</h3>
+          <div class="tags">
+            <span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>GraphQL</span><span>Docker</span><span>CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section__header">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's create something together.</h2>
+        <p class="lede">Tell me about your project or just say hello.</p>
+      </div>
+      <form class="contact">
+        <div class="grid two-column">
+          <label class="field">Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label class="field">Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+        </div>
+        <label class="field">Project details
+          <textarea name="message" rows="4" placeholder="What are you working on?" required></textarea>
+        </label>
+        <div class="contact__actions">
+          <button class="btn" type="submit">Send message</button>
+          <p class="muted">I'll respond within 1–2 business days.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Creative Developer. Crafted with care.</p>
+    <div class="socials">
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      <a href="#" aria-label="Dribbble">Dribbble</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
